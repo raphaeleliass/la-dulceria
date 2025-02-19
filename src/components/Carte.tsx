@@ -20,7 +20,7 @@ export default function Carte() {
   const categories: Category[] = [
     {
       id: "bolos",
-      name: "Bolos Artesanais", 
+      name: "Bolos Artesanais",
       items: [
         {
           name: "Bolo Red Velvet",
@@ -137,7 +137,7 @@ export default function Carte() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-poppins">
             Nossas Delícias
           </h2>
           <p className="text-lg text-gray-600">
@@ -196,7 +196,7 @@ export default function Carte() {
 
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-4">
-                    <h3 className="text-lg font-semibold text-gray-900">
+                    <h3 className="text-lg font-semibold text-gray-900 font-poppins">
                       {item.name}
                     </h3>
                     {item.price && (

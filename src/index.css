@@ -1,12 +1,17 @@
 @import "tailwindcss";
 
+@theme {
+  --font-poppins: "Poppins";
+  --font-lexend: "Lexend";
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
   }
 
   body {
-    @apply antialiased;
+    @apply antialiased font-lexend;
   }
 }
 

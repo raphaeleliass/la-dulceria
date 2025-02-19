@@ -4,7 +4,7 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-poppins">
             Entre em Contato
           </h2>
           <p className="text-lg text-gray-600">
@@ -88,7 +88,7 @@ export default function Contact() {
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4 font-poppins">
                 Informações de Contato
               </h3>
               <div className="space-y-4">
@@ -122,7 +122,7 @@ export default function Contact() {
 
             {/* Social Media */}
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4 font-poppins">
                 Redes Sociais
               </h3>
               <div className="flex space-x-4">
@@ -140,7 +140,7 @@ export default function Contact() {
 
             {/* Map */}
             <div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4 font-poppins">
                 Localização
               </h3>
               <div className="aspect-w-16 aspect-h-9 bg-rose-50 rounded-lg">

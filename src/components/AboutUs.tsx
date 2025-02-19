@@ -10,7 +10,7 @@ export default function AboutUs() {
       <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section header */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-poppins">
             Nossa História
           </h2>
           <div className="w-24 h-1 bg-rose-500 mx-auto rounded-full" />
@@ -48,7 +48,7 @@ export default function AboutUs() {
           {/* Content side */}
           <div className="order-1 lg:order-2 space-y-6">
             <div className="space-y-4">
-              <h3 className="text-2xl font-semibold text-gray-900">
+              <h3 className="text-2xl font-semibold text-gray-900 font-poppins">
                 Doces feitos com amor e tradição
               </h3>
               <p className="text-gray-600 leading-relaxed">
@@ -93,7 +93,9 @@ export default function AboutUs() {
                   className="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300"
                 >
                   <div className="text-2xl mb-2">{feature.icon}</div>
-                  <h4 className="font-medium text-gray-900">{feature.title}</h4>
+                  <h4 className="font-medium text-gray-900 font-poppins">
+                    {feature.title}
+                  </h4>
                   <p className="text-sm text-gray-500">{feature.description}</p>
                 </div>
               ))}

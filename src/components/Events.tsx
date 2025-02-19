@@ -51,7 +51,7 @@ export default function Events() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 font-poppins">
             Celebre Momentos Especiais
           </h2>
           <p className="text-lg text-gray-600">
@@ -68,7 +68,7 @@ export default function Events() {
               className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
               <div className="text-4xl mb-4">{service.icon}</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-2 font-poppins">
                 {service.title}
               </h3>
               <p className="text-gray-600 mb-6">{service.description}</p>
@@ -102,7 +102,7 @@ export default function Events() {
 
             {/* Content side */}
             <div className="p-8 md:p-12 text-white">
-              <h3 className="text-2xl font-bold mb-4">
+              <h3 className="text-2xl font-bold mb-4 font-poppins">
                 Monte sua Mesa de Doces
               </h3>
               <p className="mb-6 text-rose-100">
